@@ -15,13 +15,14 @@ class Greeting extends Component {
   }
 }
 
-export default class App extends React.Component {
+class App extends Component {
   render() {
+    var store = createStore(reducers);
+    console.log(store);
     return (
-      <Provider store={createStore(reducers)}>
+      <Provider store={store}>
       <View style={{ flex: 1 }}>
       <Header headerText="Memory Game" />
-      <CategoryList />
       <CardGrid numRows="5" numCols="4" />
       </View>
       </Provider>
@@ -41,3 +42,9 @@ const styles = StyleSheet.create({
     fontSize: 36,
   },
 });
+
+const mapStateToProps = state => {
+  return { words: state.words };
+};
+
+export default App;

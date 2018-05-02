@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 
 class Card extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      flipped: true,
+      flipped: false,
     };
   }
 
@@ -13,12 +13,18 @@ class Card extends Component {
     const { viewStyle, textStyle } = styles;
     if (this.state.flipped) {
       return (
-        <View style={viewStyle}>
-          <Text style={textStyle}>{this.props.word}</Text>
-        </View>
+          <View style={viewStyle}>
+            <Text style={textStyle}>{this.props.word}</Text>
+          </View>
       );
     } else {
-      return <View style={viewStyle}></View>
+      return (
+        <TouchableOpacity onPress={() => {
+          this.setState({flipped: true});
+        }}>
+          <View style={viewStyle} />
+        </TouchableOpacity>
+      );
     }
   }
 }
