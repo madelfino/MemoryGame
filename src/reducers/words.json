@@ -10,17 +10,232 @@
       {
         "English": "Cat",
         "Thai": "แมว",
-      }
+      },
+      {
+        "English": "Tiger",
+        "Thai": "เสือ",
+      },
+      {
+        "English": "Lion",
+        "Thai": "สิงโต",
+      },
+      {
+        "English": "Bird",
+        "Thai": "นก",
+      },
+      {
+        "English": "Cow",
+        "Thai": "วัว",
+      },
+      {
+        "English": "Ant",
+        "Thai": "มด",
+      },
+      {
+        "English": "Dragon",
+        "Thai": "มังกร",
+      },
+      {
+        "English": "Rabbit",
+        "Thai": "กระค่าย",
+      },
+      {
+        "English": "Turtle",
+        "Thai": "เต่า",
+      },
+      {
+        "English": "Chicken",
+        "Thai": "ไก่",
+      },
+      {
+        "English": "Fish",
+        "Thai": "ปลา",
+      },
+      {
+        "English": "Pig",
+        "Thai": "หมู",
+      },
+      {
+        "English": "Monkey",
+        "Thai": "ลิง",
+      },
+      {
+        "English": "Dolphin",
+        "Thai": "โลมา",
+      },
+      {
+        "English": "Whale",
+        "Thai": "วาฬ",
+      },
+      {
+        "English": "Frog",
+        "Thai": "กบ",
+      },
+      {
+        "English": "Snake",
+        "Thai": "งู",
+      },
+      {
+        "English": "Crocodile",
+        "Thai": "จระเข้",
+      },
+      {
+        "English": "Squirrel",
+        "Thai" : "กระรอก",
+      },
     ]
   },
+
   {
     "id": 1,
     "category": "Body Parts",
     "words": [
       {
         "English": "Eye",
-        "Thai": "ตา"
-      }
+        "Thai": "ตา",
+      },
+      {
+        "English": "Ear",
+        "Thai": "หู",
+      },
+      {
+        "English": "Nose",
+        "Thai": "จมูก",
+      },
+      {
+        "English": "Chin",
+        "Thai": "คาง",
+      },
+      {
+        "English": "Mouth",
+        "Thai": "ปาก",
+      },
+      {
+        "English": "Hand",
+        "Thai": "มือ",
+      },
+      {
+        "English": "Eyeborow",
+        "Thai": "คิ้ว",
+      },
+      {
+        "English": "Forehead",
+        "Thai": "หน้าผาก",
+      },
+      {
+        "English": "Arm",
+        "Thai": "แขน",
+      },
+      {
+        "English": "Finger",
+        "Thai": "นิ้ว",
+      },
+      {
+        "English": "Palm",
+        "Thai": "ฝ่ามือ",
+      },
+      {
+        "English" : "Foot",
+        "Thai": "เท้า",
+      },
+      {
+        "English": "Ankle",
+        "Thai": "ข้อเท้า",
+      },
+      {
+        "English": "Head",
+        "Thai": "หัว",
+      },
+      {
+        "English": "Back",
+        "Thai": "หลัง",
+      },
+      {
+        "English": "Wrist",
+        "Thai": "ข้อมือ",
+      },
+      {
+        "English": "eyelash",
+        "Thai": "ขนตา",
+      },
+      {
+        "English": "Neck",
+        "Thai": "คอ",
+      },
+      {
+        "English": "Waist",
+        "Thai" : "เอว",
+      },
+      {
+        "English": "Hip",
+        "Thai": "สะโพก",
+      },
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Color",
+    "words": [
+      {
+        "English": "Red",
+        "Thai": "แดง",
+      },
+      {
+        "English": "White",
+        "Thai": "ขาว",
+      },
+      {
+        "English": "Blue",
+        "Thai": "น้ำเงิน",
+      },
+      {
+        "English": "Orange",
+        "Thai": "ส้ม",
+      },
+      {
+        "English": "Brown",
+        "Thai": "น้ำตาล",
+      },
+      {
+        "English": "Black",
+        "Thai": "ดำ",
+      },
+      {
+        "English": "Pink",
+        "Thai": "ชมพู",
+      },
+      {
+        "English": "Green",
+        "Thai": "เขียว",
+      },
+      {
+        "English": "Gray",
+        "Thai": "เทา",
+      },
+      {
+        "English": "Purple",
+        "Thai": "ม่วง",
+      },
+      {
+        "English": "Yellow",
+        "Thai": "เหลือง",
+      },
+      {
+        "English": "Light Blue",
+        "Thai": "ฟ้า",
+      },
+      {
+        "English": "Gold",
+        "Thai": "ทอง",
+      },
+      {
+        "English": "Silver",
+        "Thai": "เงิน",
+      },
+      {
+        "English": "Bronze",
+        "Thai": "บรอนซ์"
+      },
     ]
   },
 ]
