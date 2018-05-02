@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "category": "Animals",
+    "words": [
+      {
+        "English": "Dog",
+        "Thai": "หมา",
+      },
+      {
+        "English": "Cat",
+        "Thai": "แมว",
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "category": "Body Parts",
+    "words": [
+      {
+        "English": "Eye",
+        "Thai": "ตา"
+      }
+    ]
+  },
+]
