@@ -7,8 +7,13 @@ class CardGrid extends Component {
     const { gridStyle } = styles;
 
     var cardRows = [];
+    var cols = this.props.numCols;
     for (var i = 0; i < this.props.numRows; ++i ) {
-      cardRows.push(<CardRow key={i} numCards={this.props.numCols} />);
+      cardRows.push(<CardRow
+        key={i}
+        numCards={cols}
+        words={this.props.words.slice(i*cols, i*cols + cols)}
+      />);
     }
 
     return (
@@ -25,6 +30,7 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'space-around',
     paddingTop: 15,
+    backgroundColor: '#007aff',
   }
 };
 

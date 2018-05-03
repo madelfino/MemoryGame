@@ -5,7 +5,6 @@ import { createStore } from 'redux';
 import reducers from './src/reducers';
 import Header from './src/components/Header';
 import CardGrid from './src/components/CardGrid';
-import CategoryList from './src/components/CategoryList';
 
 class Greeting extends Component {
   render() {
@@ -18,12 +17,16 @@ class Greeting extends Component {
 class App extends Component {
   render() {
     var store = createStore(reducers);
-    console.log(store);
+    var wordlist = [];
+    for (var i=0; i<10; i++) {
+      wordlist.push(store.getState().words[0].words[i]['English']);
+      wordlist.push(store.getState().words[0].words[i]['Thai']);
+    }
     return (
       <Provider store={store}>
       <View style={{ flex: 1 }}>
       <Header headerText="Memory Game" />
-      <CardGrid numRows="5" numCols="4" />
+      <CardGrid numRows="5" numCols="4" words={wordlist}/>
       </View>
       </Provider>
     );

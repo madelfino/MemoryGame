@@ -8,7 +8,7 @@ class CardRow extends Component {
 
     var cards = [];
     for (var i=0; i<this.props.numCards; ++i) {
-      cards.push(<Card key={i} word="banana" />);
+      cards.push(<Card key={i} word={this.props.words[i]} />);
     }
 
     return (
