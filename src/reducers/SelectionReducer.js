@@ -2,7 +2,6 @@ export default (state = null, action) => {
   switch (action.type) {
     case 'select_card':
       if (state === null) {
-        console.log('a');
         return (
           {
             "selected": action.payload['word'],
@@ -10,7 +9,6 @@ export default (state = null, action) => {
           }
         );
       } else if (!state.selected) {
-        console.log('b');
         var new_state = {
           "selected": state.selected,
           "matches": state.matches
@@ -26,13 +24,11 @@ export default (state = null, action) => {
           "selected": state.selected,
           "matches": state.matches
         };
-        console.log('c');
         if (state.selected == action.payload['match']) {
           new_state.matches.push(state.selected);
           new_state.matches.push(action.payload['word']);
         }
         new_state.selected = '';
-        console.log(new_state);
         return new_state;
       }
     default:
