@@ -47,7 +47,7 @@ class CardGrid extends Component {
         cat_id = id;
       }
     }
-    for (var i=0; i<10; i++) {
+    for (var i=0; i<10 && i<words[cat_id].words.length; i++) {
       wordlist.push(words[cat_id].words[i]['English']);
       wordlist.push(words[cat_id].words[i]['Thai']);
       matches.push(words[cat_id].words[i]['Thai']);
