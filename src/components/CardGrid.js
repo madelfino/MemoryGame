@@ -41,11 +41,17 @@ class CardGrid extends Component {
     var numCols = 4;
 
     var wordlist = [], matches = [];
+    var cat_id = 0;
+    for (id in words) {
+      if (words[id].category == this.props.category) {
+        cat_id = id;
+      }
+    }
     for (var i=0; i<10; i++) {
-      wordlist.push(words[0].words[i]['English']);
-      wordlist.push(words[0].words[i]['Thai']);
-      matches.push(words[0].words[i]['Thai']);
-      matches.push(words[0].words[i]['English']);
+      wordlist.push(words[cat_id].words[i]['English']);
+      wordlist.push(words[cat_id].words[i]['Thai']);
+      matches.push(words[cat_id].words[i]['Thai']);
+      matches.push(words[cat_id].words[i]['English']);
     }
     [wordlist, matches] = shuffle_together(wordlist, matches);
 
