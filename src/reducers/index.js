@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import WordReducer from './WordReducer';
+import CategoryReducer from './CategoryReducer';
 import SelectionReducer from './SelectionReducer';
 
 export default combineReducers({
   words: WordReducer,
-  selectedCard: SelectionReducer
+  categories: CategoryReducer,
+  selectedCard: SelectionReducer,
 });
