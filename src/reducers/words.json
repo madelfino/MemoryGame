@@ -85,7 +85,6 @@
       },
     ]
   },
-
   {
     "id": 1,
     "category": "Body Parts",
@@ -234,8 +233,524 @@
       },
       {
         "English": "Bronze",
-        "Thai": "บรอนซ์"
+        "Thai": "บรอนซ์",
       },
     ]
   },
+  {
+    "id": 3,
+    "category": "Days",
+    "words": [
+      {
+        "English": "Monday",
+        "Thai": "วันจันทร์"
+      },
+      {
+        "English": "Tuesday",
+        "Thai": "วันอังคาร",
+      },
+      {
+        "English": "Wednesday",
+        "Thai": "วันพุธ",
+      },
+      {
+        "English": "Thursday",
+        "Thai": "วันพฤหัสบดี",
+      },
+      {
+        "English": "Friday",
+        "Thai": "วันศุกร์",
+      },
+      {
+        "English": "Saturday",
+        "Thai": "วันเสาร์",
+      },
+      {
+        "English": "Sunday",
+        "Thai": "วันอาทิตย์",
+      },
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Months",
+    "words": [
+      {
+        "English": "January",
+        "Thai": "มกราคม",
+      },
+      {
+        "English": "Febuary",
+        "Thai": "กุมภาพันธ์",
+      },
+      {
+        "English": "March",
+        "Thai": "มีนาคม",
+      },
+      {
+        "English": "April",
+        "Thai": "เมษายน",
+      },
+      {
+        "English": "May",
+        "Thai": "พฤษภาคม",
+      },
+      {
+        "English": "June",
+        "Thai": "มิถุนายน",
+      },
+      {
+        "English": "July",
+        "Thai": "กรกฎาคม",
+      },
+      {
+        "English": "August",
+        "Thai": "สิงหาคม",
+      },
+      {
+        "English": "September",
+        "Thai": "กันยายน",
+      },
+      {
+        "English": "October",
+        "Thai": "ตุลาคม",
+      },
+      {
+        "English": "November",
+        "Thai": "พฤศจิกายน",
+      },
+      {
+        "English": "December",
+        "Thai": "ธันวาคม"
+      },
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Seasons",
+    "words": [
+      {
+        "English": "Summer",
+        "Thai": "ฤดูร้อน",
+      },
+      {
+        "English": "Winter",
+        "Thai": "ฤดูหนาว",
+      },
+      {
+        "English": "Spring",
+        "Thai": "ฤดูใบไม้ผลิ",
+      },
+      {
+        "English": "Autumn",
+        "Thai": "ฤดูใบไม้ร่วง",
+      },
+      {
+        "English": "Rainy",
+        "Thai": "ฤดูฝน",
+      },
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Numbers",
+    "words": [
+      {
+        "English": "Zero",
+        "Thai": "ศูนย์",
+      },
+      {
+        "English": "One",
+        "Thai": "หนึ่ง",
+      },
+      {
+        "English": "Two",
+        "Thai": "สอง",
+      },
+      {
+        "English": "Three",
+        "Thai": "สาม",
+      },
+      {
+        "English": "Four",
+        "Thai": "สี่",
+      },
+      {
+        "English": "Five",
+        "Thai": "ห้า",
+      },
+      {
+        "English": "Six",
+        "Thai": "หก",
+      },
+      {
+        "English": "Seven",
+        "Thai": "เจ็ด",
+      },
+      {
+        "English": "Eight",
+        "Thai": "แปด",
+      },
+      {
+        "English": "Nine",
+        "Thai": "เก้า",
+      },
+      {
+        "English": "Ten",
+        "Thai": "สิบ",
+      },
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Family",
+    "words": [
+      {
+        "English": "Grandfather",
+        "Thai":  "คุณตา/คุณปู่",
+      },
+      {
+        "English": "Grandmother",
+        "Thai": "คุณยาย/คุณย่า"
+      },
+      {
+        "English": "Grandson",
+        "Thai": "หลานชาย",
+      },
+      {
+        "English": "Granddaughther",
+        "Thai": "หลานสาว",
+      },
+      {
+        "English": "Father",
+        "Thai": "พ่อ",
+      },
+      {
+        "English": "Mother",
+        "Thai": "แม่",
+      },
+      {
+        "English": "Sister",
+        "Thai": "พี่สาว/น้องสาว",
+      },
+      {
+        "English": "Daugther",
+        "Thai": "ลูกสาว",
+      },
+      {
+        "English": "Brother",
+        "Thai": "น้องชาย/พี่ชาย",
+      },
+      {
+        "English": "Son",
+        "Thai": "ลูกชาย",
+      },
+      {
+        "English": "Uncle",
+        "Thai": "ลุง",
+      },
+      {
+        "English": "Aunt",
+        "Thai": "ป้า",
+      },
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Directions",
+    "words": [
+      {
+        "English": "Turn",
+        "Thai": "เลี้ยว",
+      },
+      {
+        "Englisgh": "Right",
+        "Thai": "ขวา",
+      },
+      {
+        "English": "Left",
+        "Thai": "ซ้าย",
+      },
+      {
+        "English": "Stop",
+        "Thai": "หยุด",
+      },
+      {
+        "English": "Straight",
+        "Thai": "ตรง",
+      },
+      {
+        "English": "Across",
+        "Thai": "ข้าม",
+      },
+      {
+        "English": "U-Turn",
+        "Thai": "กลับรถ/ยูเทิร์น",
+      },
+      {
+        "English": "Here",
+        "Thai": "ที่นี่",
+      },
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Pronouns",
+    "words": [
+      {
+        "English": "I (Woman)",
+        "Thai": "ฉัน",
+      },
+      {
+        "English": "I (Man)",
+        "Thai": "ผม",
+      },
+      {
+        "English": "You",
+        "Thai": "คุณ",
+      },
+      {
+        "English": "We",
+        "Thai": "พวกเรา",
+      },
+      {
+        "English": "They",
+        "Thai": "พวกเขา",
+      },
+      {
+        "English": "He/She",
+        "Thai": "เขา",
+      },
+      {
+        "English": "It",
+        "Thai": "มัน"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Fruits",
+    "words": [
+      {
+        "English": "Orange",
+        "Thai": "ส้ม",
+      },
+      {
+        "English": "Papaya",
+        "Thai": "มะละกอ",
+      },
+      {
+        "English": "Banana",
+        "Thai" : "กล้วย",
+      },
+      {
+        "English": "Watermelon",
+        "Thai": "แตงโม",
+      },
+      {
+        "English": "Apple",
+        "Thai": "แอปเปิ้ล",
+      },
+      {
+        "English": "Grape",
+        "Thai": "องุ่น",
+      },
+      {
+        "English": "Rose Apple",
+        "Thai": "ชมพู่",
+      },
+      {
+        "English": "Durian",
+        "Thai": "ทุเรียน",
+      },
+      {
+        "English": "Jackfruit",
+        "Thai": "ขนุน",
+      },
+      {
+        "English": "Rambutan",
+        "Thai": "เงาะ",
+      },
+      {
+        "English": "Coconut",
+        "Thai": "มะพร้าว",
+      },
+      {
+        "English": "Guava",
+        "Thai": "ฝรั่ง",
+      },
+      {
+        "English": "Mango",
+        "Thai": "มะม่วง",
+      },
+      {
+        "English": " Passion Fruit",
+        "Thai": "เสาวรส",
+      },
+      {
+        "English": "Tamarind",
+        "Thai": "มะขาม",
+      },
+      {
+        "English": "Sapodilla",
+        "Thai": "ละมุด",
+      },
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Vegetables",
+    "words": [
+      {
+        "English": "Tomato",
+        "Thai": "มะเขือเทศ",
+      },
+      {
+        "English": "Bean",
+        "Thai": "ถั่ว",
+      },
+      {
+        "English": "Bean Sprouts",
+        "Thai": "ถั่วงอก",
+      },
+      {
+        "English": "Bell Pepper",
+        "Thai": "พริกหยวก",
+      },
+      {
+        "English": "Cabbage",
+        "Thai": "กะหล่ำปลี",
+      },
+      {
+        "English": "Garlic",
+        "Thai": "กระเทียม",
+      },
+      {
+        "English": "Coriander",
+        "Thai": "ผักชี",
+      },
+      {
+        "English": "Galangal",
+        "Thai": "ข่า",
+      },
+      {
+        "English": "Ginger",
+        "Thai": "ขิง",
+      },
+      {
+        "English": "Holy Basil",
+        "Thai": "ใบกะเพรา",
+      },
+      {
+        "English": "Sweet Basil",
+        "Thai": "ใบโหระพา",
+      },
+      {
+        "English": "Lime",
+        "Thai": "มะนาว",
+      },
+      {
+        "English": "Mushroom",
+        "Thai": "เห็ด",
+      },
+      {
+        "English": "Onion",
+        "Thai": "หัวหอม",
+      },
+      {
+        "English": "Potato",
+        "Thai": "มันฝรั่ง",
+      },
+      {
+        "English": "Taro",
+        "Thai": "เผือก",
+      },
+      {
+        "English": "Lecttuce",
+        "Thai": "ผักกาดหอม",
+      },
+      {
+        "English": "Radish",
+        "Thai": "หัวไช้เท้า",
+      },
+      {
+        "English": "Chilli",
+        "Thai":"พริก",
+      },
+      {
+        "English": "Pumkin",
+        "Thai": "ฟักทอง",
+      },
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Places",
+    "words": [
+       {
+        "English": "School",
+        "Thai": "โรงเรียน",
+       },
+       {
+        "English": "Hospital",
+        "Thai": "โรงพยาบาล",
+       },
+       {
+        "English": "Temple",
+        "Thai": "วัด",
+       },
+       {
+        "English": "Police Station",
+        "Thai": "สถานีตำรวจ",
+       },
+       {
+        "English": "Bank",
+        "Thai": "ธนาคาร",
+       },
+       {
+        "English": "Book Store",
+        "Thai": "ร้านหนังสือ",
+       },
+       {
+        "English": "Cinima",
+        "Thai": "โรงหนัง",
+       },
+       {
+        "English": "University",
+        "Thai": "มหาวิทยาลัย",
+       },
+       {
+        "English": "Department Store",
+        "Thai": "ห้าง",
+       },
+       {
+        "English": "Market",
+        "Thai": "ตลาด",
+       },
+       {
+        "English": "Museum",
+        "Thai": "พิภิฑภัณฑ์",
+       },
+       {
+        "English": "Post Office",
+        "Thai": "ไปรษณีย์",
+       },
+       {
+        "Engliah": "Restuarant",
+        "Thai": "ภัตราคาร",
+       },
+       {
+        "English": "Barber Shop",
+        "Thai": "ร้านตัดผม",
+       },
+       {
+        "English": "Drug Store",
+        "Thai": "ร้านขายยา"
+       },
+       {
+        "English": "Park",
+        "Thai": "สวนสาธารณะ",
+       },
+     ]
+   },
 ]
