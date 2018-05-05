@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
-import Header from './src/components/Header';
-import CardGrid from './src/components/CardGrid';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './src/reducers';
+import Router from './src/Router';
 
-class Greeting extends Component {
+class App extends Component {
   render() {
+    console.disableYellowBox = true;
+    var store = createStore(reducers);
     return (
-      <Text style={ styles.bigtext }>Hello, {this.props.name}!</Text>
-    );
-  }
-}
-
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={{ flex: 1 }}>
-      <Header headerText="Memory Game" />
-      <CardGrid numRows="5" numCols="4" />
-      </View>
+      <Provider store={store}>
+        <Router />
+      </Provider>
     );
   }
 }
@@ -34,3 +29,5 @@ const styles = StyleSheet.create({
     fontSize: 36,
   },
 });
+
+export default App;

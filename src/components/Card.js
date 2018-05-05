@@ -1,40 +1,97 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity, LayoutAnimation } from 'react-native';
+import { connect } from 'react-redux';
+import * as actions from '../actions';
 
 class Card extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      flipped: true,
+      triggered: false,
+      ishidden: false
     };
   }
 
+  componentWillUpdate() {
+    LayoutAnimation.spring();
+  }
+
   render() {
-    const { viewStyle, textStyle } = styles;
-    if (this.state.flipped) {
+    const { viewStyle, textStyle, matchedStyle, deadStyle } = styles;
+    const { selected, word, match, matched } = this.props;
+    if (this.state.ishidden) {
       return (
-        <View style={viewStyle}>
-          <Text style={textStyle}>{this.props.word}</Text>
-        </View>
+        <View style={matchedStyle} />
+      );
+    }
+    if (this.state.triggered) {
+      return (
+          <View style={[viewStyle, deadStyle]}>
+            <Text style={textStyle}>{word}</Text>
+          </View>
+      );
+    }
+    if (!this.state.triggered && this.props.matched) {
+      this.setState({triggered: true});
+      setInterval(() => {
+        this.setState({ishidden: true});
+      }, 1000);
+    }
+    if (selected) {
+      return (
+          <View style={viewStyle}>
+            <Text style={textStyle}>{word}</Text>
+          </View>
       );
     } else {
-      return <View style={viewStyle}></View>
+      return (
+        <TouchableOpacity onPress={() => {
+          this.props.selectCard(word, match);
+        }}>
+          <View style={viewStyle} />
+        </TouchableOpacity>
+      );
     }
   }
 }
 
 const styles = {
   viewStyle: {
-    width:100,
-    height:100,
-    backgroundColor: 'blue',
+    height: 100,
+    width: 100,
+    borderColor: 'blue',
+    borderRadius: 5,
+    borderWidth: 2,
+    backgroundColor: 'powderblue',
     alignItems: 'center',
+    alignSelf: 'stretch',
     justifyContent: 'center',
   },
   textStyle: {
-    color: 'white',
+    color: 'blue',
     fontWeight: 'bold',
+    fontSize: 24,
+  },
+  matchedStyle: {
+    height: 100,
+    width: 100,
+    borderColor: '#007aff',
+    borderRadius: 5,
+    borderWidth: 2,
+    backgroundColor: '#007aff',
+    alignItems: 'center',
+    alignSelf: 'stretch',
+    justifyContent: 'center',
+  },
+  deadStyle: {
+    backgroundColor: '#aa0000',
   }
 };
 
-export default Card;
+const mapStateToProps = (state, ownProps) => {
+  const selected = state.selectedCard && state.selectedCard.selected === ownProps.word;
+  const matched = state.selectedCard && state.selectedCard.matches.includes(ownProps.word);
+  return { selected, matched };
+};
+
+export default connect(mapStateToProps, actions)(Card);
