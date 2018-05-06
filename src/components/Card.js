@@ -11,7 +11,7 @@ class Card extends Component {
   }
 
   render() {
-    const { viewStyle, textStyle, matchedStyle, deadStyle } = styles;
+    const { viewStyle, textStyle, matchedStyle } = styles;
     const { selected, word, match, matched } = this.props;
 
     if (this.props.win) {
@@ -48,34 +48,31 @@ class Card extends Component {
 
 const styles = {
   viewStyle: {
-    height: 100,
-    width: 100,
-    borderColor: 'blue',
-    borderRadius: 5,
-    borderWidth: 2,
-    backgroundColor: 'powderblue',
+    height: 95,
+    width: 95,
+    borderColor: '#f8333c',
+    borderRadius: 10,
+    borderWidth: 3,
+    backgroundColor: '#f1fffa',
     alignItems: 'center',
     alignSelf: 'stretch',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   textStyle: {
-    color: 'blue',
+    color: '#f8333c',
     fontWeight: 'bold',
-    fontSize: 24,
+    fontSize: 14
   },
   matchedStyle: {
-    height: 100,
-    width: 100,
-    borderColor: '#007aff',
-    borderRadius: 5,
-    borderWidth: 2,
-    backgroundColor: '#007aff',
+    height: 95,
+    width: 95,
+    borderColor: '#235789',
+    borderRadius: 10,
+    borderWidth: 3,
+    backgroundColor: '#235789',
     alignItems: 'center',
     alignSelf: 'stretch',
-    justifyContent: 'center',
-  },
-  deadStyle: {
-    backgroundColor: '#aa0000',
+    justifyContent: 'center'
   }
 };
 

@@ -129,13 +129,13 @@ const styles = {
   gridStyle: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#007aff',
+    backgroundColor: '#235789',
   },
   rowStyle: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 10,
+    justifyContent: 'space-around',
+    margin: 10
   }
 };
 

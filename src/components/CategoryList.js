@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { View, Button, Picker } from 'react-native';
+import { View, Text, TouchableOpacity, Picker } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 class CategoryList extends Component {
@@ -12,6 +12,13 @@ class CategoryList extends Component {
   }
 
   render() {
+    const {
+      pickerStyle,
+      pickerItemStyle,
+      buttonStyle,
+      buttonTextStyle,
+      textStyle
+    } = styles;
     const categoryItems = [];
     var i=0;
     for (id in this.props.categories) {
@@ -25,22 +32,30 @@ class CategoryList extends Component {
     }
 
     return (
-      <View style={{flex: 1, backgroundColor: 'powderblue'}}>
-      <Picker
-        style={styles.pickerStyle}
-        textStyle={{
-          fontSize: 36,
-        }}
-        itemStyle={styles.pickerItemStyle}
-        selectedValue={this.state.category}
-        onValueChange={ (value) => this.setState({ category: value }) }
-      >
-        {categoryItems}
-      </Picker>
-        <Button
-          title="Play Game"
-          onPress={() => { Actions.game({ category: this.state.category }); }}
-        />
+
+      <View style={{flex: 1}}>
+        <View style={{ backgroundColor: '#f8333c', flex: 1 }} />
+        <View style={{ backgroundColor: '#f1fffa', flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <Text style={textStyle}>Select Category:</Text>
+        </View>
+        <Picker
+          style={pickerStyle}
+          mode='dropdown'
+          selectedValue={this.state.category}
+          onValueChange={ (value) => this.setState({ category: value }) }
+        >
+          {categoryItems}
+        </Picker>
+        <View style={{ backgroundColor: '#f1fffa', flex: 1 }} />
+        <View style={{ backgroundColor: '#f8333c', flex: 1 }} />
+        <TouchableOpacity
+          style={buttonStyle}
+          onPress={() => {
+            Actions.game({ category: this.state.category });
+          }}
+        >
+          <Text style={buttonTextStyle}>Play Game</Text>
+        </TouchableOpacity>
       </View>
     );
   }
@@ -48,12 +63,32 @@ class CategoryList extends Component {
 
 const styles = {
   pickerStyle: {
+    flex: 2,
+    backgroundColor: '#235789',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: '#f1fffa',
+    fontSize: 24
+  },
+  buttonStyle: {
     flex: 1,
+    height: 100,
+    backgroundColor: '#333745',
+    alignSelf: 'stretch',
+    justifyContent: 'center',
   },
-  pickerItemStyle: {
-    fontSize: 48,
-    color: 'red',
+  textStyle: {
+    fontSize: 24,
+    color: '#333745',
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
+  buttonTextStyle: {
+    fontSize: 24,
+    color: '#f1fffa',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  }
 };
 
 const mapStateToProps = state => {

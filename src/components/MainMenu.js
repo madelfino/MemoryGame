@@ -7,9 +7,9 @@ class MainMenu extends Component {
     const { viewStyle, textStyle, buttonStyle, buttonTextStyle } = styles;
     return(
       <View style={viewStyle}>
-        <View style={{ backgroundColor: 'red', flex: 1 }} />
-        <View style={{ backgroundColor: 'white', flex: 1 }} />
-        <View style={{ backgroundColor: 'blue', flex: 2 }}>
+        <View style={{ backgroundColor: '#f8333c', flex: 1 }} />
+        <View style={{ backgroundColor: '#f1fffa', flex: 1 }} />
+        <View style={{ backgroundColor: '#235789', flex: 2 }}>
           <View style={viewStyle} />
           <Text style={textStyle}>
             จำได้
@@ -19,8 +19,8 @@ class MainMenu extends Component {
           </Text>
           <View style={viewStyle} />
         </View>
-        <View style={{ backgroundColor: 'white', flex: 1 }} />
-        <View style={{ backgroundColor: 'red', flex: 1 }} />
+        <View style={{ backgroundColor: '#f1fffa', flex: 1 }} />
+        <View style={{ backgroundColor: '#f8333c', flex: 1 }} />
         <View style={{ flex:1}}>
           <TouchableOpacity style={buttonStyle}
             onPress={() => {
@@ -41,7 +41,7 @@ const styles = {
   textStyle: {
     flex: 2,
     fontSize: 36,
-    color: 'white',
+    color: '#f1fffa',
     fontWeight: 'bold',
     textAlign: 'center',
   },
@@ -52,13 +52,13 @@ const styles = {
   buttonStyle: {
     flex: 1,
     height: 100,
-    backgroundColor: 'gray',
+    backgroundColor: '#333745',
     alignSelf: 'stretch',
     justifyContent: 'center',
   },
   buttonTextStyle: {
     fontSize: 24,
-    color: 'white',
+    color: '#f1fffa',
     fontWeight: 'bold',
     textAlign: 'center',
   }
