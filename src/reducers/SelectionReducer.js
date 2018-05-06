@@ -8,7 +8,6 @@ export default (state = null, action) => {
         }
       )
     case 'select_card':
-    console.log(state);
       if (state == null) {
         return (
           {

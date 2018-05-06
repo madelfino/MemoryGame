@@ -4,16 +4,14 @@ import { connect } from 'react-redux';
 import Card from './Card';
 import Header from './Header';
 
-const shuffle = (a) => {
-  var i, x, j;
-  for (i = a.length - 1; i > 0; i--) {
-    j = Math.floor(Math.random()*(i+1));
-    x = a[i];
-    a[i] = a[j];
-    a[j] = x;
+const cull_together = (a, b, n) => {
+  while (a.length > n) {
+    var i = Math.floor(Math.random() * a.length);
+    a.splice(i, 1);
+    b.splice(i, 1);
   }
-  return a;
-};
+  return [a, b];
+}
 
 const shuffle_together = (a, b) => {
   var i, x, j;
@@ -30,6 +28,20 @@ const shuffle_together = (a, b) => {
   return [a, b];
 };
 
+const copy_into_each_other = (a, b) => {
+  var c = [];
+  for (var i=0; i<a.length; i++) {
+    c.push(a[i]);
+  }
+  for (var i=0; i<b.length; i++) {
+    a.push(b[i]);
+  }
+  for (var i=0; i<c.length; i++) {
+    b.push(c[i]);
+  }
+  return [a, b];
+}
+
 class CardGrid extends Component {
   constructor(props) {
     super(props);
@@ -44,13 +56,16 @@ class CardGrid extends Component {
         cat_id = id;
       }
     }
-    for (var i=0; i<10 && i<words[cat_id].words.length; i++) {
+
+    for (var i=0; i<words[cat_id].words.length; i++) {
       wordlist.push(words[cat_id].words[i]['English']);
-      wordlist.push(words[cat_id].words[i]['Thai']);
       matches.push(words[cat_id].words[i]['Thai']);
-      matches.push(words[cat_id].words[i]['English']);
     }
+
+    [wordlist, matches] = cull_together(wordlist, matches, 10);
+    [wordlist, matches] = copy_into_each_other(wordlist, matches);
     [wordlist, matches] = shuffle_together(wordlist, matches);
+
     this.state = {
       'wordlist': wordlist,
       'matches': matches,
