@@ -8,11 +8,11 @@ import WinScreen from './components/WinScreen';
 const RouterComponent = () => {
   return (
     <Router>
-      <Scene key="root">
+      <Scene key="root" hideNavBar={true}>
         <Scene key="mainMenu" component={MainMenu} title="" initial />
         <Scene key="categoryList" component={CategoryList} title="Select Category" />
         <Scene key="game" component={CardGrid} title="Memory Game" />
-        <Scene key="victory" component={WinScreen} title="You Win!" hideNavBar={true}/>
+        <Scene key="victory" component={WinScreen} title="You Win!" />
       </Scene>
     </Router>
   );

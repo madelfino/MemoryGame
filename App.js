@@ -17,17 +17,4 @@ class App extends Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'powderblue',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-  },
-  bigtext: {
-    fontWeight: 'bold',
-    fontSize: 36,
-  },
-});
-
 export default App;

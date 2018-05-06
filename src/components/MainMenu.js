@@ -4,7 +4,7 @@ import { Actions } from 'react-native-router-flux';
 
 class MainMenu extends Component {
   render() {
-    const { viewStyle, textStyle, buttonStyle } = styles;
+    const { viewStyle, textStyle, buttonStyle, buttonTextStyle } = styles;
     return(
       <View style={viewStyle}>
         <View style={{ backgroundColor: 'red', flex: 1 }} />
@@ -28,7 +28,7 @@ class MainMenu extends Component {
             }}
           >
           <View style={{flex:0.5}} />
-          <Text style={buttonStyle}>Start</Text>
+          <Text style={buttonTextStyle}>Start</Text>
           <View style={{flex:0.5}} />
           </TouchableOpacity>
         </View>
@@ -55,6 +55,8 @@ const styles = {
     backgroundColor: 'gray',
     alignSelf: 'stretch',
     justifyContent: 'center',
+  },
+  buttonTextStyle: {
     fontSize: 24,
     color: 'white',
     fontWeight: 'bold',

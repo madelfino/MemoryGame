@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import { connect } from 'react-redux';
 import Card from './Card';
+import Header from './Header';
 
 const shuffle = (a) => {
   var i, x, j;
@@ -32,10 +33,6 @@ const shuffle_together = (a, b) => {
 class CardGrid extends Component {
   constructor(props) {
     super(props);
-  }
-
-  render() {
-    const { gridStyle, rowStyle } = styles;
     const { words } = this.props;
     var numRows = 5;
     var numCols = 4;
@@ -54,6 +51,34 @@ class CardGrid extends Component {
       matches.push(words[cat_id].words[i]['English']);
     }
     [wordlist, matches] = shuffle_together(wordlist, matches);
+    this.state = {
+      'wordlist': wordlist,
+      'matches': matches,
+      'numRows' : numRows,
+      'numCols' : numCols,
+      'matchedCards': []
+    };
+    this.matchHandler = this.matchHandler.bind(this);
+  }
+
+  matchHandler(word) {
+    var matchedList = this.state.matchedCards;
+    matchedList.push(word);
+    for (var i=0; i<this.state.wordlist.length; i++) {
+      if (this.state.wordlist[i] == word) {
+        matchedList.push(this.state.matches[i]);
+      }
+    }
+    this.setState(
+      {
+        'matchedCards': matchedList
+      }
+    );
+  }
+
+  render() {
+    const { gridStyle, rowStyle } = styles;
+    const { wordlist, matches, numRows, numCols, matchedCards } = this.state;
 
     var cards=[];
     for (var i=0; i<numRows * numCols; i++) {
@@ -61,6 +86,8 @@ class CardGrid extends Component {
         key={i}
         word={wordlist[i]}
         match={matches[i]}
+        matchHandler={this.matchHandler}
+        matched={matchedCards.includes(wordlist[i])}
       />)
     }
 
@@ -68,7 +95,7 @@ class CardGrid extends Component {
     for (var i=0; i<numRows; i++) {
       var row = cards.slice(i*numCols, i*numCols + numCols);
       cardgrid.push(
-        <View style={rowStyle}>
+        <View key={i} style={rowStyle}>
           {row}
         </View>
       );
@@ -76,6 +103,7 @@ class CardGrid extends Component {
 
     return (
       <View style={gridStyle}>
+        <Header headerText={this.props.category} />
         {cardgrid}
       </View>
     );

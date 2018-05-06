@@ -5,13 +5,6 @@ import { Actions } from 'react-native-router-flux';
 import * as actions from '../actions';
 
 class Card extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      triggered: false,
-      ishidden: false
-    };
-  }
 
   componentWillUpdate() {
     LayoutAnimation.spring();
@@ -20,27 +13,21 @@ class Card extends Component {
   render() {
     const { viewStyle, textStyle, matchedStyle, deadStyle } = styles;
     const { selected, word, match, matched } = this.props;
+
     if (this.props.win) {
       Actions.victory();
     }
-    if (this.state.ishidden) {
+
+    if (this.props.matched) {
       return (
-        <View style={matchedStyle} />
+        <View style={matchedStyle}>
+          <Text style={textStyle}>{word}</Text>
+        </View>
       );
+    } else if (this.props.isMatched) {
+      this.props.matchHandler(this.props.word);
     }
-    if (this.state.triggered) {
-      return (
-          <View style={[viewStyle, deadStyle]}>
-            <Text style={textStyle}>{word}</Text>
-          </View>
-      );
-    }
-    if (!this.state.triggered && this.props.matched) {
-      this.setState({triggered: true});
-      setInterval(() => {
-        this.setState({ishidden: true});
-      }, 1000);
-    }
+
     if (selected) {
       return (
           <View style={viewStyle}>
@@ -93,10 +80,10 @@ const styles = {
 };
 
 const mapStateToProps = (state, ownProps) => {
-  const selected = state.selectedCard && state.selectedCard.selected === ownProps.word;
+  const selected = state.selectedCard && state.selectedCard.selected.includes(ownProps.word);
   const win = state.selectedCard && (state.selectedCard.matches.length >= 20);
-  const matched = state.selectedCard && state.selectedCard.matches.includes(ownProps.word);
-  return { selected, win, matched };
+  const isMatched = state.selectedCard && state.selectedCard.matches.includes(ownProps.word);
+  return { selected, win, isMatched };
 };
 
 export default connect(mapStateToProps, actions)(Card);
