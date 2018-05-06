@@ -1,7 +1,14 @@
 export default (state = null, action) => {
   switch (action.type) {
+    case 'reset':
+      return (
+        {
+          "selected": '',
+          "matches": []
+        }
+      )
     case 'select_card':
-      if (state === null) {
+      if (state == null) {
         return (
           {
             "selected": action.payload['word'],

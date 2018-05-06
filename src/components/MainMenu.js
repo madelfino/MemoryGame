@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 class MainMenu extends Component {
@@ -21,12 +21,17 @@ class MainMenu extends Component {
         </View>
         <View style={{ backgroundColor: 'white', flex: 1 }} />
         <View style={{ backgroundColor: 'red', flex: 1 }} />
-        <Button style={buttonStyle}
-          onPress={() => {
-            Actions.categoryList();
-          }}
-          title="Start"
-        />
+        <View style={{ flex:1}}>
+          <TouchableOpacity style={buttonStyle}
+            onPress={() => {
+              Actions.categoryList();
+            }}
+          >
+          <View style={{flex:0.5}} />
+          <Text style={buttonStyle}>Start</Text>
+          <View style={{flex:0.5}} />
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
@@ -42,11 +47,18 @@ const styles = {
   },
   viewStyle: {
     flex: 1,
+    flexDirection: 'column',
   },
   buttonStyle: {
     flex: 1,
-    width: null,
-    backgroundColor: 'blue',
+    height: 100,
+    backgroundColor: 'gray',
+    alignSelf: 'stretch',
+    justifyContent: 'center',
+    fontSize: 24,
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
   }
 };
 

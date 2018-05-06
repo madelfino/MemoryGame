@@ -8,16 +8,8 @@ export const selectCard = (word, match) => {
   };
 };
 
-export const setCategory = (category) => {
+export const resetCards = () => {
   return {
-    type: 'set_category',
-    payload: category
-  };
-};
-
-export const getCategory = (category) => {
-  return {
-    type: 'get_category',
-    payload: ''
-  };
-};
+    type: 'reset'
+  }
+}

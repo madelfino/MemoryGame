@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, LayoutAnimation } from 'react-native';
 import { connect } from 'react-redux';
+import { Actions } from 'react-native-router-flux';
 import * as actions from '../actions';
 
 class Card extends Component {
@@ -19,6 +20,9 @@ class Card extends Component {
   render() {
     const { viewStyle, textStyle, matchedStyle, deadStyle } = styles;
     const { selected, word, match, matched } = this.props;
+    if (this.props.win) {
+      Actions.victory();
+    }
     if (this.state.ishidden) {
       return (
         <View style={matchedStyle} />
@@ -90,8 +94,9 @@ const styles = {
 
 const mapStateToProps = (state, ownProps) => {
   const selected = state.selectedCard && state.selectedCard.selected === ownProps.word;
+  const win = state.selectedCard && (state.selectedCard.matches.length >= 20);
   const matched = state.selectedCard && state.selectedCard.matches.includes(ownProps.word);
-  return { selected, matched };
+  return { selected, win, matched };
 };
 
 export default connect(mapStateToProps, actions)(Card);
