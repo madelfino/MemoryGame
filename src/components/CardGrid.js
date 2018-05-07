@@ -45,22 +45,31 @@ const copy_into_each_other = (a, b) => {
 class CardGrid extends Component {
   constructor(props) {
     super(props);
-    const { words } = this.props;
+    const { words, category, categories } = this.props;
     var numRows = 5;
     var numCols = 4;
 
     var wordlist = [], matches = [];
     var cat_id = 0;
     for (id in words) {
-      if (words[id].category == this.props.category) {
+      if (words[id].category == category) {
         cat_id = id;
       }
     }
 
-    for (var i=0; i<words[cat_id].words.length; i++) {
-      wordlist.push(words[cat_id].words[i]['English']);
-      matches.push(words[cat_id].words[i]['Thai']);
-    }
+    if (category == 'All') {
+      for (id in words) {
+        for (word in words[id].words) {
+          wordlist.push(words[id].words[word]['English']);
+          matches.push(words[id].words[word]['Thai']);
+        }
+      }
+    } else {
+      for (var i=0; i<words[cat_id].words.length; i++) {
+        wordlist.push(words[cat_id].words[i]['English']);
+        matches.push(words[cat_id].words[i]['Thai']);
+      }
+  }
 
     [wordlist, matches] = cull_together(wordlist, matches, 10);
     [wordlist, matches] = copy_into_each_other(wordlist, matches);
@@ -140,7 +149,7 @@ const styles = {
 };
 
 const mapStateToProps = state => {
-  return { words: state.words };
+  return { words: state.words, categories: state.categories };
 };
 
 export default connect(mapStateToProps)(CardGrid);

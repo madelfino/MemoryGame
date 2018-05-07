@@ -30,6 +30,12 @@ class CategoryList extends Component {
         /> );
         i++;
     }
+    categoryItems.push( <Picker.Item
+      key={i}
+      label='All'
+      value='All'
+      /> );
+      i++;
 
     return (
 
@@ -40,7 +46,7 @@ class CategoryList extends Component {
         </View>
         <Picker
           style={pickerStyle}
-          mode='dropdown'
+          mode='dialog'
           selectedValue={this.state.category}
           onValueChange={ (value) => this.setState({ category: value }) }
         >
@@ -67,8 +73,7 @@ const styles = {
     backgroundColor: '#235789',
     justifyContent: 'center',
     alignItems: 'center',
-    color: '#f1fffa',
-    fontSize: 24
+    color: '#f1fffa'
   },
   buttonStyle: {
     flex: 1,
