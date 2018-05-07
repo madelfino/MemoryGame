@@ -82,7 +82,7 @@
       {
         "English": "Squirrel",
         "Thai" : "กระรอก",
-      },
+      }
     ]
   },
   {
@@ -168,7 +168,7 @@
       {
         "English": "Hip",
         "Thai": "สะโพก",
-      },
+      }
     ]
   },
   {
@@ -234,7 +234,7 @@
       {
         "English": "Bronze",
         "Thai": "บรอนซ์",
-      },
+      }
     ]
   },
   {
@@ -269,6 +269,38 @@
         "English": "Sunday",
         "Thai": "วันอาทิตย์",
       },
+      {
+        "English": "Day",
+        "Thai": "วัน"
+      },
+      {
+        "English": "Week",
+        "Thai": "สัปดาห์"
+      },
+      {
+        "English": "Holiday",
+        "Thai": "วันหยุด"
+      },
+      {
+        "English": "Work Day",
+        "Thai": "วันทำงาน"
+      },
+      {
+        "English": "All day",
+        "Thai": "ทั้งวัน"
+      },
+      {
+        "English": "Every Day",
+        "Thai": "ทุกวัน"
+      },
+      {
+        "English": "Someday",
+        "Thai": "วันใด"
+      },
+      {
+        "English": "Nowadays",
+        "Thai": "ทุกวันนี้"
+      }
     ]
   },
   {
@@ -322,12 +354,12 @@
       {
         "English": "December",
         "Thai": "ธันวาคม"
-      },
+      }
     ]
   },
   {
     "id": 5,
-    "category": "Seasons",
+    "category": "Weather",
     "words": [
       {
         "English": "Summer",
@@ -346,9 +378,49 @@
         "Thai": "ฤดูใบไม้ร่วง",
       },
       {
-        "English": "Rainy",
+        "English": "Rainy Season",
         "Thai": "ฤดูฝน",
       },
+      {
+        "English": "Flood",
+        "Thai": "น้ำท่วม"
+      },
+      {
+        "English": "Temperature",
+        "Thai": "ปรอท"
+      },
+      {
+        "English": "It's Raining",
+        "Thai": "ฝนตก"
+      },
+      {
+        "English": "The Weather",
+        "Thai": "ฝนฟ้า"
+      },
+      {
+        "English": "Storm",
+        "Thai": "พายุ"
+      },
+      {
+        "English": "Thunder",
+        "Thai": "ฟ้าคะนอง"
+      },
+      {
+        "English": "Drought",
+        "Thai": "ฝนแล้ง"
+      },
+      {
+        "English": "Sky",
+        "Thai": "ท้องฟ้า"
+      },
+      {
+        "English": "Sunny",
+        "Thai": "แดดจัด"
+      },
+      {
+        "English": "Very Rainy",
+        "Thai": "ฝนชุก"
+      }
     ]
   },
   {
@@ -399,6 +471,38 @@
         "English": "Ten",
         "Thai": "สิบ",
       },
+      {
+        "English": "Twenty",
+        "Thai": "ยี่สิบ",
+      },
+      {
+        "English": "Thirty",
+        "Thai": "สามสิบ",
+      },
+      {
+        "English": "Thirteen",
+        "Thai": "สิบสาม",
+      },
+      {
+        "English": "Hundred",
+        "Thai": "ร้อย",
+      },
+      {
+        "English": "Thousand",
+        "Thai": "พัน",
+      },
+      {
+        "English": "Ten Thousand",
+        "Thai": "หมื่น",
+      },
+      {
+        "English": "Hundred Thousand",
+        "Thai": "แสน",
+      },
+      {
+        "English": "Million",
+        "Thai": "ล้าน",
+      }
     ]
   },
   {
@@ -430,16 +534,24 @@
         "Thai": "แม่",
       },
       {
-        "English": "Sister",
-        "Thai": "พี่สาว/น้องสาว",
+        "English": "Older Sister",
+        "Thai": "พี่สาว",
+      },
+      {
+        "English": "Younger Sister",
+        "Thai": "น้องสาว",
       },
       {
         "English": "Daugther",
         "Thai": "ลูกสาว",
       },
       {
-        "English": "Brother",
-        "Thai": "น้องชาย/พี่ชาย",
+        "English": "Older Brother",
+        "Thai": "พี่ชาย",
+      },
+      {
+        "English": "Younger Brother",
+        "Thai": "น้องชาย",
       },
       {
         "English": "Son",
@@ -452,7 +564,7 @@
       {
         "English": "Aunt",
         "Thai": "ป้า",
-      },
+      }
     ]
   },
   {
@@ -491,6 +603,30 @@
         "English": "Here",
         "Thai": "ที่นี่",
       },
+      {
+        "English": "There",
+        "Thai": "ที่นั่น",
+      },
+      {
+        "English": "Road",
+        "Thai": "ถนน",
+      },
+      {
+        "English": "Go",
+        "Thai": "ไป",
+      },
+      {
+        "English": "Exit",
+        "Thai": "ทางออก",
+      },
+      {
+        "English": "Enter",
+        "Thai": "เข้า",
+      },
+      {
+        "English": "Slow Down",
+        "Thai": "ช้าลงหน่อย",
+      }
     ]
   },
   {
@@ -498,32 +634,48 @@
     "category": "Pronouns",
     "words": [
       {
-        "English": "I (Woman)",
-        "Thai": "ฉัน",
+        "English": "I (Female)",
+        "Thai": "ฉัน"
       },
       {
-        "English": "I (Man)",
-        "Thai": "ผม",
+        "English": "I (Male)",
+        "Thai": "ผม"
       },
       {
         "English": "You",
-        "Thai": "คุณ",
+        "Thai": "คุณ"
       },
       {
         "English": "We",
-        "Thai": "พวกเรา",
+        "Thai": "พวกเรา"
       },
       {
         "English": "They",
-        "Thai": "พวกเขา",
+        "Thai": "พวกเขา"
       },
       {
         "English": "He/She",
-        "Thai": "เขา",
+        "Thai": "เขา"
       },
       {
         "English": "It",
         "Thai": "มัน"
+      },
+      {
+        "English": "You (Formal)",
+        "Thai": "ท่าน"
+      },
+      {
+        "English": "You/She (Informal)",
+        "Thai": "เธอ"
+      },
+      {
+        "English": "I (Male/Formal)",
+        "Thai": "กระผม"
+      },
+      {
+        "English": "I (Female/Formal)",
+        "Thai": "ดิฉัน"
       }
     ]
   },
@@ -594,7 +746,7 @@
       {
         "English": "Sapodilla",
         "Thai": "ละมุด",
-      },
+      }
     ]
   },
   {
@@ -750,7 +902,7 @@
        {
         "English": "Park",
         "Thai": "สวนสาธารณะ",
-       },
+       }
      ]
    },
 ]
