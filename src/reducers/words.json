@@ -300,6 +300,18 @@
       {
         "English": "Nowadays",
         "Thai": "ทุกวันนี้"
+      },
+      {
+        "English": "Today",
+        "Thai": "วันนี้"
+      },
+      {
+        "English": "Tomorrow",
+        "Thai": "พรุ่งนี้"
+      },
+      {
+        "English": "Yesterday",
+        "Thai": "เมื่อวาน"
       }
     ]
   },
@@ -839,70 +851,248 @@
     "id": 12,
     "category": "Places",
     "words": [
-       {
+      {
         "English": "School",
         "Thai": "โรงเรียน",
-       },
-       {
+      },
+      {
         "English": "Hospital",
         "Thai": "โรงพยาบาล",
-       },
-       {
+      },
+      {
         "English": "Temple",
         "Thai": "วัด",
-       },
-       {
+      },
+      {
         "English": "Police Station",
         "Thai": "สถานีตำรวจ",
-       },
-       {
+      },
+      {
         "English": "Bank",
         "Thai": "ธนาคาร",
-       },
-       {
+      },
+      {
         "English": "Book Store",
         "Thai": "ร้านหนังสือ",
-       },
-       {
+      },
+      {
         "English": "Cinema",
         "Thai": "โรงหนัง",
-       },
-       {
+      },
+      {
         "English": "University",
         "Thai": "มหาวิทยาลัย",
-       },
-       {
+      },
+      {
         "English": "Department Store",
         "Thai": "ห้าง",
-       },
-       {
+      },
+      {
         "English": "Market",
         "Thai": "ตลาด",
-       },
-       {
+      },
+      {
         "English": "Museum",
         "Thai": "พิภิฑภัณฑ์",
-       },
-       {
+      },
+      {
         "English": "Post Office",
         "Thai": "ไปรษณีย์",
-       },
-       {
-        "Engliah": "Restuarant",
+      },
+      {
+        "English": "Restuarant",
         "Thai": "ภัตราคาร",
-       },
-       {
+      },
+      {
         "English": "Barber Shop",
         "Thai": "ร้านตัดผม",
-       },
-       {
+      },
+      {
         "English": "Drug Store",
         "Thai": "ร้านขายยา"
-       },
-       {
+      },
+      {
         "English": "Park",
         "Thai": "สวนสาธารณะ",
-       }
-     ]
-   },
+      }
+    ]
+  },
+  {
+   "id": 13,
+   "category": "Beverages",
+   "words": [
+     {
+      "English": "Water",
+      "Thai": "น้ำ"
+     },
+     {
+      "English": "Ice",
+      "Thai": "น้ำแข็ง"
+     },
+     {
+      "English": "Coffee",
+      "Thai": "กาแฟ"
+     },
+     {
+      "English": "Tea",
+      "Thai": "ชา"
+     },
+     {
+      "English": "Apple Juice",
+      "Thai": "น้ำแอปเปิ้ล"
+     },
+     {
+      "English": "Milk",
+      "Thai": "นม"
+     },
+     {
+      "English": "Green Tea",
+      "Thai": "ชาเขียว"
+     },
+     {
+      "English": "Pearl Milk Tea",
+      "Thai": "ชามุก"
+     },
+     {
+      "English": "Tomato Juice",
+      "Thai": "น้ำมะเขือเทศ"
+     },
+     {
+      "English": "Hot Coffee",
+      "Thai": "กาแฟร้อน"
+     },
+     {
+      "English": "Iced Coffee",
+      "Thai": "กาแฟเย็น"
+     },
+     {
+      "English": "Wine",
+      "Thai": "ไวน์"
+    },
+     {
+      "English": "Beer",
+      "Thai": "เบียร์"
+    },
+    {
+      "English": "Drink",
+      "Thai": "ดื่ม"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "category": "Clothing",
+   "words": [
+     {
+       "English": "Clothes",
+       "Thai": "เสื้อผ้า"
+     },
+     {
+       "English": "Shirt",
+       "Thai": "เสื้อ"
+     },
+     {
+       "English": "Pants",
+       "Thai": "กางเกง"
+     },
+     {
+       "English": "Shorts",
+       "Thai": "กางเกงขาสั้น"
+     },
+     {
+       "English": "Hat",
+       "Thai": "หมวก"
+     },
+     {
+       "English": "Glasses",
+       "Thai": "แว่นตา"
+     },
+     {
+       "English": "Socks",
+       "Thai": "ถุงเท้า"
+     },
+     {
+       "English": "Shoes",
+       "Thai": "รองเท้า"
+     },
+     {
+       "English": "Dress",
+       "Thai": "แต่งตัว"
+     },
+     {
+       "English": "Skirt",
+       "Thai": "กระโปรง"
+     },
+     {
+       "English": "Sleeve",
+       "Thai": "แขนเสื้อ"
+     },
+     {
+       "English": "Sandals",
+       "Thai": "รองเท้าแตะ"
+     },
+     {
+       "English": "Gloves",
+       "Thai": "ถุงมือ"
+     }
+   ]
+  },
+  {
+   "id": 15,
+   "category": "Words with ใ",
+   "words": [
+     {
+       "English": "New",
+       "Thai": "ใหม่"
+     },
+     {
+       "English": "Put",
+       "Thai": "ใส่"
+     },
+     {
+       "English": "Yes",
+       "Thai": "ใช่"
+     },
+     {
+       "English": "Near",
+       "Thai": "ใกล้"
+     },
+     {
+       "English": "Give",
+       "Thai": "ให้"
+     },
+     {
+       "English": "Use",
+       "Thai": "ใช้"
+     },
+     {
+       "English": "Big",
+       "Thai": "ใหญ่"
+     },
+     {
+       "English": "Heart",
+       "Thai": "ใจ"
+     },
+     {
+       "English": "In",
+       "Thai": "ใน"
+     },
+     {
+       "English": "Any",
+       "Thai": "ใด"
+     },
+     {
+       "English": "Who",
+       "Thai": "ใคร"
+     },
+     {
+       "English": "Clear",
+       "Thai": "ใส"
+     },
+     {
+       "English": "Under",
+       "Thai": "ใต้"
+     }
+   ]
+  }
 ]
