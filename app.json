@@ -7,5 +7,7 @@
     "android": {
       "package": "com.delfino.jamdai"
     }
-  }
+  },
+  "name": "MemoryGame",
+  "displayName": "JamDai Thai Word Match"
 }
