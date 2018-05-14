@@ -49,6 +49,8 @@ build/
 captures/
 output.json 
 
+app/build/
+
 #NDK
 obj/
 .externalNativeBuild
