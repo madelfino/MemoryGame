@@ -48,8 +48,8 @@ class Card extends Component {
 
 const styles = {
   viewStyle: {
-    height: 95,
-    width: 95,
+    height: 90,
+    width: 90,
     borderColor: '#f8333c',
     borderRadius: 10,
     borderWidth: 3,

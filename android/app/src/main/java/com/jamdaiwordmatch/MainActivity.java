@@ -1,4 +1,4 @@
-package com.memorygame;
+package com.jamdaiwordmatch;
 
 import com.facebook.react.ReactActivity;
 
