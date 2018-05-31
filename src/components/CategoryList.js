@@ -7,7 +7,8 @@ class CategoryList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      category: this.props.categories[0]
+      category: this.props.categories[0],
+      mode: 'script'
     };
   }
 
@@ -52,12 +53,20 @@ class CategoryList extends Component {
         >
           {categoryItems}
         </Picker>
-        <View style={{ backgroundColor: '#f1fffa', flex: 1 }} />
+        <Picker
+          style={{backgroundColor: '#f1fffa', flex: 1, justifyContent: 'center', alignItems: 'center'}}
+          mode='dialog'
+          selectedValue={this.state.mode}
+          onValueChange={ (value) => this.setState({ mode: value }) }
+        >
+          <Picker.Item key='0' label="Thai Script" value="script" />
+          <Picker.Item key='1' label="Transcription" value="transcription" />
+        </Picker>
         <View style={{ backgroundColor: '#f8333c', flex: 1 }} />
         <TouchableOpacity
           style={buttonStyle}
           onPress={() => {
-            Actions.game({ category: this.state.category });
+            Actions.game({ category: this.state.category, mode: this.state.mode });
           }}
         >
           <Text style={buttonTextStyle}>Play Game</Text>
@@ -100,6 +109,7 @@ const mapStateToProps = state => {
   return {
     words: state.words,
     categories: state.categories,
+
   };
 };
 

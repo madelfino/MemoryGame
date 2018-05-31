@@ -45,7 +45,7 @@ const copy_into_each_other = (a, b) => {
 class CardGrid extends Component {
   constructor(props) {
     super(props);
-    const { words, category, categories } = this.props;
+    const { words, category, categories, mode } = this.props;
     var numRows = 5;
     var numCols = 4;
 
@@ -61,13 +61,21 @@ class CardGrid extends Component {
       for (id in words) {
         for (word in words[id].words) {
           wordlist.push(words[id].words[word]['English']);
-          matches.push(words[id].words[word]['Thai']);
+          if (mode == "script" || !words[id].words[word]['Transcription']) {
+            matches.push(words[id].words[word]['Thai']);
+          } else {
+            matches.push(words[id].words[word]['Transcription']);
+          }
         }
       }
     } else {
       for (var i=0; i<words[cat_id].words.length; i++) {
         wordlist.push(words[cat_id].words[i]['English']);
-        matches.push(words[cat_id].words[i]['Thai']);
+        if (mode == "script" || !words[cat_id].words[i]['Transcription']) {
+          matches.push(words[cat_id].words[i]['Thai']);
+        } else {
+          matches.push(words[cat_id].words[i]['Transcription']);
+        }
       }
   }
 
