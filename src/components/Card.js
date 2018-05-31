@@ -11,7 +11,7 @@ class Card extends Component {
   }
 
   render() {
-    const { viewStyle, textStyle, matchedStyle } = styles;
+    const { viewStyle, textStyle, matchedStyle, coverStyle } = styles;
     const { selected, word, match, matched } = this.props;
 
     if (this.props.win) {
@@ -39,7 +39,7 @@ class Card extends Component {
         <TouchableOpacity onPress={() => {
           this.props.selectCard(word, match);
         }}>
-          <View style={viewStyle} />
+          <View style={coverStyle} />
         </TouchableOpacity>
       );
     }
@@ -54,6 +54,17 @@ const styles = {
     borderRadius: 10,
     borderWidth: 3,
     backgroundColor: '#f1fffa',
+    alignItems: 'center',
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  },
+  coverStyle: {
+    height: 90,
+    width: 90,
+    borderColor: '#f8333c',
+    borderRadius: 10,
+    borderWidth: 3,
+    backgroundColor: '#f8333c',
     alignItems: 'center',
     alignSelf: 'stretch',
     justifyContent: 'center'
