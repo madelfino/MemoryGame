@@ -49,6 +49,7 @@ build/
 .navigation
 captures/
 output.json 
+android/.gradle/
 
 app/build/
 
