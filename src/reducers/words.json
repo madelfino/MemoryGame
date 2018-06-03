@@ -395,62 +395,62 @@
       {
         "English": "January",
         "Thai": "มกราคม",
-        "Transcription": ""
+        "Transcription": "mók gà raa kom"
       },
       {
         "English": "Febuary",
         "Thai": "กุมภาพันธ์",
-        "Transcription": ""
+        "Transcription": "gum paa pan"
       },
       {
         "English": "March",
         "Thai": "มีนาคม",
-        "Transcription": ""
+        "Transcription": "mii naa kom"
       },
       {
         "English": "April",
         "Thai": "เมษายน",
-        "Transcription": ""
+        "Transcription": "mee sǎa yon"
       },
       {
         "English": "May",
         "Thai": "พฤษภาคม",
-        "Transcription": ""
+        "Transcription": "prʉ́t sà paa kom"
       },
       {
         "English": "June",
         "Thai": "มิถุนายน",
-        "Transcription": ""
+        "Transcription": "mí tù naa yon"
       },
       {
         "English": "July",
         "Thai": "กรกฎาคม",
-        "Transcription": ""
+        "Transcription": "gà rá gà daa kom"
       },
       {
         "English": "August",
         "Thai": "สิงหาคม",
-        "Transcription": ""
+        "Transcription": "sǐng hǎa kom"
       },
       {
         "English": "September",
         "Thai": "กันยายน",
-        "Transcription": ""
+        "Transcription": "gan yaa yon"
       },
       {
         "English": "October",
         "Thai": "ตุลาคม",
-        "Transcription": ""
+        "Transcription": "dtù laa kom"
       },
       {
         "English": "November",
         "Thai": "พฤศจิกายน",
-        "Transcription": ""
+        "Transcription": "prʉ́t sà jì gaa yon"
       },
       {
         "English": "December",
         "Thai": "ธันวาคม",
-        "Transcription": ""
+        "Transcription": "tan waa kom"
       }
     ]
   },
@@ -461,77 +461,77 @@
       {
         "English": "Summer",
         "Thai": "ฤดูร้อน",
-        "Transcription": ""
+        "Transcription": "rʉ́ duu rɔ́ɔn"
       },
       {
         "English": "Winter",
         "Thai": "ฤดูหนาว",
-        "Transcription": ""
+        "Transcription": "rʉ́ duu nǎao"
       },
       {
         "English": "Spring",
         "Thai": "ฤดูใบไม้ผลิ",
-        "Transcription": ""
+        "Transcription": "rʉ́ duu bai mái plì"
       },
       {
         "English": "Autumn",
         "Thai": "ฤดูใบไม้ร่วง",
-        "Transcription": ""
+        "Transcription": "rʉ́ duu bai mái rûang"
       },
       {
         "English": "Rainy Season",
         "Thai": "ฤดูฝน",
-        "Transcription": ""
+        "Transcription": "rʉ́ duu fǒn"
       },
       {
         "English": "Flood",
         "Thai": "น้ำท่วม",
-        "Transcription": ""
+        "Transcription": "náam tûam"
       },
       {
         "English": "Temperature",
         "Thai": "ปรอท",
-        "Transcription": ""
+        "Transcription": "bpà rɔ̀ɔt"
       },
       {
         "English": "It's Raining",
         "Thai": "ฝนตก",
-        "Transcription": ""
+        "Transcription": "fǒn dtòk"
       },
       {
         "English": "The Weather",
         "Thai": "ฝนฟ้า",
-        "Transcription": ""
+        "Transcription": "fǒn fáa"
       },
       {
         "English": "Storm",
         "Thai": "พายุ",
-        "Transcription": ""
+        "Transcription": "paa yú"
       },
       {
         "English": "Thunder",
         "Thai": "ฟ้าคะนอง",
-        "Transcription": ""
+        "Transcription": "fáa ká nɔɔng"
       },
       {
         "English": "Drought",
         "Thai": "ฝนแล้ง",
-        "Transcription": ""
+        "Transcription": "fǒn lɛ́ɛng"
       },
       {
         "English": "Sky",
         "Thai": "ท้องฟ้า",
-        "Transcription": ""
+        "Transcription": "tɔ́ɔng fáa"
       },
       {
         "English": "Sunny",
         "Thai": "แดดจัด",
-        "Transcription": ""
+        "Transcription": "dɛ̀ɛt jàt"
       },
       {
         "English": "Very Rainy",
         "Thai": "ฝนชุก",
-        "Transcription": ""
+        "Transcription": "fǒn chúk"
       }
     ]
   },
@@ -542,97 +542,97 @@
       {
         "English": "Zero",
         "Thai": "ศูนย์",
-        "Transcription": ""
+        "Transcription": "sǔun"
       },
       {
         "English": "One",
         "Thai": "หนึ่ง",
-        "Transcription": ""
+        "Transcription": "nʉ̀ng"
       },
       {
         "English": "Two",
         "Thai": "สอง",
-        "Transcription": ""
+        "Transcription": "sɔ̌ɔng"
       },
       {
         "English": "Three",
         "Thai": "สาม",
-        "Transcription": ""
+        "Transcription": "sǎam"
       },
       {
         "English": "Four",
         "Thai": "สี่",
-        "Transcription": ""
+        "Transcription": "sǐi"
       },
       {
         "English": "Five",
         "Thai": "ห้า",
-        "Transcription": ""
+        "Transcription": "hâa"
       },
       {
         "English": "Six",
         "Thai": "หก",
-        "Transcription": ""
+        "Transcription": "hòk"
       },
       {
         "English": "Seven",
         "Thai": "เจ็ด",
-        "Transcription": ""
+        "Transcription": "jèt"
       },
       {
         "English": "Eight",
         "Thai": "แปด",
-        "Transcription": ""
+        "Transcription": "bpɛ̀ɛt"
       },
       {
         "English": "Nine",
         "Thai": "เก้า",
-        "Transcription": ""
+        "Transcription": "gâao"
       },
       {
         "English": "Ten",
         "Thai": "สิบ",
-        "Transcription": ""
+        "Transcription": "sìp"
       },
       {
         "English": "Twenty",
         "Thai": "ยี่สิบ",
-        "Transcription": ""
+        "Transcription": "yîi sìp"
       },
       {
         "English": "Thirty",
         "Thai": "สามสิบ",
-        "Transcription": ""
+        "Transcription": "sǎam sìp"
       },
       {
         "English": "Thirteen",
         "Thai": "สิบสาม",
-        "Transcription": ""
+        "Transcription": "sìp sǎam"
       },
       {
         "English": "Hundred",
         "Thai": "ร้อย",
-        "Transcription": ""
+        "Transcription": "rɔ́ɔi"
       },
       {
         "English": "Thousand",
         "Thai": "พัน",
-        "Transcription": ""
+        "Transcription": "pan"
       },
       {
         "English": "Ten Thousand",
         "Thai": "หมื่น",
-        "Transcription": ""
+        "Transcription": "mʉ̀ʉn"
       },
       {
         "English": "Hundred Thousand",
         "Thai": "แสน",
-        "Transcription": ""
+        "Transcription": "sɛ̌ɛn"
       },
       {
         "English": "Million",
         "Thai": "ล้าน",
-        "Transcription": ""
+        "Transcription": "láan"
       }
     ]
   },
@@ -643,72 +643,72 @@
       {
         "English": "Grandfather",
         "Thai":  "คุณตา/คุณปู่",
-        "Transcription": ""
+        "Transcription": "kun dtaa/kun bpùu"
       },
       {
         "English": "Grandmother",
         "Thai": "คุณยาย/คุณย่า",
-        "Transcription": ""
+        "Transcription": "kun yaai/kun yâa"
       },
       {
         "English": "Grandson",
         "Thai": "หลานชาย",
-        "Transcription": ""
+        "Transcription": "lǎan chaai"
       },
       {
         "English": "Granddaughther",
         "Thai": "หลานสาว",
-        "Transcription": ""
+        "Transcription": "lǎan sǎao"
       },
       {
         "English": "Father",
         "Thai": "พ่อ",
-        "Transcription": ""
+        "Transcription": "pɔ̂ɔ"
       },
       {
         "English": "Mother",
         "Thai": "แม่",
-        "Transcription": ""
+        "Transcription": "mɛɛ"
       },
       {
         "English": "Older Sister",
         "Thai": "พี่สาว",
-        "Transcription": ""
+        "Transcription": "pîi sǎao"
       },
       {
         "English": "Younger Sister",
         "Thai": "น้องสาว",
-        "Transcription": ""
+        "Transcription": "nɔ́ɔng sǎao"
       },
       {
         "English": "Daugther",
         "Thai": "ลูกสาว",
-        "Transcription": ""
+        "Transcription": "lûuk sǎao"
       },
       {
         "English": "Older Brother",
         "Thai": "พี่ชาย",
-        "Transcription": ""
+        "Transcription": "pîi chaai"
       },
       {
         "English": "Younger Brother",
         "Thai": "น้องชาย",
-        "Transcription": ""
+        "Transcription": "nɔ́ɔng chaai"
       },
       {
         "English": "Son",
         "Thai": "ลูกชาย",
-        "Transcription": ""
+        "Transcription": "lûuk chaai"
       },
       {
         "English": "Uncle",
         "Thai": "ลุง",
-        "Transcription": ""
+        "Transcription": "lung"
       },
       {
         "English": "Aunt",
         "Thai": "ป้า",
-        "Transcription": ""
+        "Transcription": "bpâa"
       }
     ]
   },
@@ -719,72 +719,72 @@
       {
         "English": "Turn",
         "Thai": "เลี้ยว",
-        "Transcription": ""
+        "Transcription": "líao"
       },
       {
         "English": "Right",
         "Thai": "ขวา",
-        "Transcription": ""
+        "Transcription": "kwǎa"
       },
       {
         "English": "Left",
         "Thai": "ซ้าย",
-        "Transcription": ""
+        "Transcription": "sáai"
       },
       {
         "English": "Stop",
         "Thai": "หยุด",
-        "Transcription": ""
+        "Transcription": "yùt"
       },
       {
         "English": "Straight",
         "Thai": "ตรง",
-        "Transcription": ""
+        "Transcription": "dtrong"
       },
       {
         "English": "Across",
         "Thai": "ข้าม",
-        "Transcription": ""
+        "Transcription": "kâam"
       },
       {
         "English": "U-Turn",
         "Thai": "กลับรถ/ยูเทิร์น",
-        "Transcription": ""
+        "Transcription": "glàp rót"
       },
       {
         "English": "Here",
         "Thai": "ที่นี่",
-        "Transcription": ""
+        "Transcription": "tîi nii"
       },
       {
         "English": "There",
         "Thai": "ที่นั่น",
-        "Transcription": ""
+        "Transcription": "tîi nân"
       },
       {
         "English": "Road",
         "Thai": "ถนน",
-        "Transcription": ""
+        "Transcription": "tà nǒn"
       },
       {
         "English": "Go",
         "Thai": "ไป",
-        "Transcription": ""
+        "Transcription": "bpai"
       },
       {
         "English": "Exit",
         "Thai": "ทางออก",
-        "Transcription": ""
+        "Transcription": "taang ɔ̀ɔk"
       },
       {
         "English": "Enter",
         "Thai": "เข้า",
-        "Transcription": ""
+        "Transcription": "kâo"
       },
       {
         "English": "Slow Down",
         "Thai": "ช้าลงหน่อย",
-        "Transcription": ""
+        "Transcription": "cháa long nɔ̀ɔi"
       }
     ]
   },
@@ -795,57 +795,57 @@
       {
         "English": "I (Female)",
         "Thai": "ฉัน",
-        "Transcription": ""
+        "Transcription": "chǎn"
       },
       {
         "English": "I (Male)",
         "Thai": "ผม",
-        "Transcription": ""
+        "Transcription": "pǒm"
       },
       {
         "English": "You",
         "Thai": "คุณ",
-        "Transcription": ""
+        "Transcription": "kun"
       },
       {
         "English": "We",
         "Thai": "พวกเรา",
-        "Transcription": ""
+        "Transcription": "pûak rao"
       },
       {
         "English": "They",
         "Thai": "พวกเขา",
-        "Transcription": ""
+        "Transcription": "pûak kǎo"
       },
       {
         "English": "He/She",
         "Thai": "เขา",
-        "Transcription": ""
+        "Transcription": "kǎo"
       },
       {
         "English": "It",
         "Thai": "มัน",
-        "Transcription": ""
+        "Transcription": "man"
       },
       {
         "English": "You (Formal)",
         "Thai": "ท่าน",
-        "Transcription": ""
+        "Transcription": "tân"
       },
       {
         "English": "You/She",
         "Thai": "เธอ",
-        "Transcription": ""
+        "Transcription": "təə"
       },
       {
         "English": "I (Male/Formal)",
         "Thai": "กระผม",
-        "Transcription": ""
+        "Transcription": "grà pǒm"
       },
       {
         "English": "I (Female/Formal)",
         "Thai": "ดิฉัน",
-        "Transcription": ""
+        "Transcription": "dì chǎn"
       }
     ]
   },
@@ -856,72 +856,77 @@
       {
         "English": "Papaya",
         "Thai": "มะละกอ",
-        "Transcription": ""
+        "Transcription": "má lá gɔɔ"
       },
       {
         "English": "Banana",
         "Thai" : "กล้วย",
-        "Transcription": ""
+        "Transcription": "glûai"
       },
       {
         "English": "Watermelon",
         "Thai": "แตงโม",
-        "Transcription": ""
+        "Transcription": "dtɛɛng moo"
       },
       {
         "English": "Apple",
         "Thai": "แอปเปิ้ล",
-        "Transcription": ""
+        "Transcription": "ɛ̀ɛp bpə̂ən"
       },
       {
         "English": "Grape",
         "Thai": "องุ่น",
-        "Transcription": ""
+        "Transcription": "à ngùn"
       },
       {
         "English": "Durian",
         "Thai": "ทุเรียน",
-        "Transcription": ""
+        "Transcription": "tú rian"
       },
       {
         "English": "Jackfruit",
         "Thai": "ขนุน",
-        "Transcription": ""
+        "Transcription": "kà nǔn"
       },
       {
         "English": "Rambutan",
         "Thai": "เงาะ",
-        "Transcription": ""
+        "Transcription": "ngɔ́"
       },
       {
         "English": "Coconut",
         "Thai": "มะพร้าว",
-        "Transcription": ""
+        "Transcription": "má práao"
       },
       {
         "English": "Guava",
         "Thai": "ฝรั่ง",
-        "Transcription": ""
+        "Transcription": "fà ràng"
       },
       {
         "English": "Mango",
         "Thai": "มะม่วง",
-        "Transcription": ""
+        "Transcription": "má mûang"
       },
       {
         "English": " Passion Fruit",
         "Thai": "เสาวรส",
-        "Transcription": ""
+        "Transcription": "sǎo wá rót"
       },
       {
         "English": "Tamarind",
         "Thai": "มะขาม",
-        "Transcription": ""
+        "Transcription": "má kǎam"
       },
       {
         "English": "Sapodilla",
         "Thai": "ละมุด",
-        "Transcription": ""
+        "Transcription": "lá mút"
+      },
+      {
+        "English": "Pineapple",
+        "Thai": "สัปปะรด",
+        "Transcription": "sàp bpà rót"
       }
     ]
   },
@@ -932,102 +937,102 @@
       {
         "English": "Tomato",
         "Thai": "มะเขือเทศ",
-        "Transcription": ""
+        "Transcription": "má kʉ̌a têet"
       },
       {
         "English": "Bean",
         "Thai": "ถั่ว",
-        "Transcription": ""
+        "Transcription": "tùa"
       },
       {
         "English": "Bean Sprouts",
         "Thai": "ถั่วงอก",
-        "Transcription": ""
+        "Transcription": "tùa ngɔ̂ɔk"
       },
       {
         "English": "Bell Pepper",
         "Thai": "พริกหยวก",
-        "Transcription": ""
+        "Transcription": "prík yùak"
       },
       {
         "English": "Cabbage",
         "Thai": "กะหล่ำปลี",
-        "Transcription": ""
+        "Transcription": "gà làm bplii"
       },
       {
         "English": "Garlic",
         "Thai": "กระเทียม",
-        "Transcription": ""
+        "Transcription": "grà tiam"
       },
       {
         "English": "Coriander",
         "Thai": "ผักชี",
-        "Transcription": ""
+        "Transcription": "pàk chii"
       },
       {
         "English": "Galangal",
         "Thai": "ข่า",
-        "Transcription": ""
+        "Transcription": "kàa"
       },
       {
         "English": "Ginger",
         "Thai": "ขิง",
-        "Transcription": ""
+        "Transcription": "kǐng"
       },
       {
         "English": "Holy Basil",
         "Thai": "ใบกะเพรา",
-        "Transcription": ""
+        "Transcription": "bai gà prao"
       },
       {
         "English": "Sweet Basil",
         "Thai": "ใบโหระพา",
-        "Transcription": ""
+        "Transcription": "bai rò paa"
       },
       {
         "English": "Lime",
         "Thai": "มะนาว",
-        "Transcription": ""
+        "Transcription": "má naao"
       },
       {
         "English": "Mushroom",
         "Thai": "เห็ด",
-        "Transcription": ""
+        "Transcription": "hèt"
       },
       {
         "English": "Onion",
         "Thai": "หัวหอม",
-        "Transcription": ""
+        "Transcription": "hǔa hɔ̌ɔm"
       },
       {
         "English": "Potato",
         "Thai": "มันฝรั่ง",
-        "Transcription": ""
+        "Transcription": "man fà ràng"
       },
       {
         "English": "Taro",
         "Thai": "เผือก",
-        "Transcription": ""
+        "Transcription": "pʉ̀ak"
       },
       {
         "English": "Lecttuce",
         "Thai": "ผักกาดหอม",
-        "Transcription": ""
+        "Transcription": "pàk gàat hɔ̌ɔm"
       },
       {
         "English": "Radish",
         "Thai": "หัวไช้เท้า",
-        "Transcription": ""
+        "Transcription": "hǔa chái táao"
       },
       {
         "English": "Chilli",
         "Thai":"พริก",
-        "Transcription": ""
+        "Transcription": "prík"
       },
       {
         "English": "Pumpkin",
         "Thai": "ฟักทอง",
-        "Transcription": ""
+        "Transcription": "fák tɔɔng"
       }
     ]
   },
@@ -1038,82 +1043,82 @@
       {
         "English": "School",
         "Thai": "โรงเรียน",
-        "Transcription": ""
+        "Transcription": "roong rian"
       },
       {
         "English": "Hospital",
         "Thai": "โรงพยาบาล",
-        "Transcription": ""
+        "Transcription": "roong pá yaa baan"
       },
       {
         "English": "Temple",
         "Thai": "วัด",
-        "Transcription": ""
+        "Transcription": "wát"
       },
       {
         "English": "Police Station",
         "Thai": "สถานีตำรวจ",
-        "Transcription": ""
+        "Transcription": "sà tǎa nii dtam rùat"
       },
       {
         "English": "Bank",
         "Thai": "ธนาคาร",
-        "Transcription": ""
+        "Transcription": "tá naa kaan"
       },
       {
         "English": "Book Store",
         "Thai": "ร้านหนังสือ",
-        "Transcription": ""
+        "Transcription": "ráan nǎng sʉ̌ʉ"
       },
       {
         "English": "Cinema",
         "Thai": "โรงหนัง",
-        "Transcription": ""
+        "Transcription": "roong nǎng"
       },
       {
         "English": "University",
         "Thai": "มหาวิทยาลัย",
-        "Transcription": ""
+        "Transcription": "má hǎa wít tá yaa lai"
       },
       {
         "English": "Department Store",
         "Thai": "ห้าง",
-        "Transcription": ""
+        "Transcription": "hâang"
       },
       {
         "English": "Market",
         "Thai": "ตลาด",
-        "Transcription": ""
+        "Transcription": "dtà làat"
       },
       {
         "English": "Museum",
         "Thai": "พิภิฑภัณฑ์",
-        "Transcription": ""
+        "Transcription": "pí pít pan"
       },
       {
         "English": "Post Office",
         "Thai": "ไปรษณีย์",
-        "Transcription": ""
+        "Transcription": "bprai sà nii"
       },
       {
         "English": "Restuarant",
         "Thai": "ภัตราคาร",
-        "Transcription": ""
+        "Transcription": "pát raa kaan"
       },
       {
         "English": "Barber Shop",
         "Thai": "ร้านตัดผม",
-        "Transcription": ""
+        "Transcription": "ráan dtàt pǒm"
       },
       {
         "English": "Drug Store",
         "Thai": "ร้านขายยา",
-        "Transcription": ""
+        "Transcription": "ráan kǎai yaa"
       },
       {
         "English": "Park",
         "Thai": "สวนสาธารณะ",
-        "Transcription": ""
+        "Transcription": "sǔan sǎa taa rá ná"
       }
     ]
   },
@@ -1124,72 +1129,72 @@
      {
       "English": "Water",
       "Thai": "น้ำ",
-      "Transcription": ""
+      "Transcription": "náam"
      },
      {
       "English": "Ice",
       "Thai": "น้ำแข็ง",
-      "Transcription": ""
+      "Transcription": "nám kɛ̌ng"
      },
      {
       "English": "Coffee",
       "Thai": "กาแฟ",
-      "Transcription": ""
+      "Transcription": "gaa fɛɛ"
      },
      {
       "English": "Tea",
       "Thai": "ชา",
-      "Transcription": ""
+      "Transcription": "chaa"
      },
      {
       "English": "Apple Juice",
       "Thai": "น้ำแอปเปิ้ล",
-      "Transcription": ""
+      "Transcription": "náam ɛ̀ɛp bpə̂ən"
      },
      {
       "English": "Milk",
       "Thai": "นม",
-      "Transcription": ""
+      "Transcription": "nom"
      },
      {
       "English": "Green Tea",
       "Thai": "ชาเขียว",
-      "Transcription": ""
+      "Transcription": "chaa kǐao"
      },
      {
       "English": "Pearl Milk Tea",
-      "Thai": "ชามุก",
-      "Transcription": ""
+      "Thai": "ชานมมุก",
+      "Transcription": "chaa nom múk"
      },
      {
       "English": "Tomato Juice",
       "Thai": "น้ำมะเขือเทศ",
-      "Transcription": ""
+      "Transcription": "náam má kʉ̌a têet"
      },
      {
       "English": "Hot Coffee",
       "Thai": "กาแฟร้อน",
-      "Transcription": ""
+      "Transcription": "gaa fɛɛ rɔ́ɔn"
      },
      {
       "English": "Iced Coffee",
       "Thai": "กาแฟเย็น",
-      "Transcription": ""
+      "Transcription": "gaa fɛɛ yen"
      },
      {
       "English": "Wine",
       "Thai": "ไวน์",
-      "Transcription": ""
+      "Transcription": "wai"
     },
      {
       "English": "Beer",
       "Thai": "เบียร์",
-      "Transcription": ""
+      "Transcription": "bia"
     },
     {
       "English": "Drink",
       "Thai": "ดื่ม",
-      "Transcription": ""
+      "Transcription": "dʉ̀ʉm"
     }
    ]
   },
@@ -1200,67 +1205,67 @@
      {
        "English": "Clothes",
        "Thai": "เสื้อผ้า",
-       "Transcription": ""
+       "Transcription": "sʉ̂a pâa"
      },
      {
        "English": "Shirt",
        "Thai": "เสื้อ",
-       "Transcription": ""
+       "Transcription": "sʉ̂a"
      },
      {
        "English": "Pants",
        "Thai": "กางเกง",
-       "Transcription": ""
+       "Transcription": "gaang geeng"
      },
      {
        "English": "Shorts",
        "Thai": "กางเกงขาสั้น",
-       "Transcription": ""
+       "Transcription": "gaang geeng kǎa sân"
      },
      {
        "English": "Hat",
        "Thai": "หมวก",
-       "Transcription": ""
+       "Transcription": "mùak"
      },
      {
        "English": "Glasses",
        "Thai": "แว่นตา",
-       "Transcription": ""
+       "Transcription": "wɛ̂ɛn dtaa"
      },
      {
        "English": "Socks",
        "Thai": "ถุงเท้า",
-       "Transcription": ""
+       "Transcription": "tǔng táao"
      },
      {
        "English": "Shoes",
        "Thai": "รองเท้า",
-       "Transcription": ""
+       "Transcription": "rɔɔng táao"
      },
      {
        "English": "Dress",
        "Thai": "แต่งตัว",
-       "Transcription": ""
+       "Transcription": "dtɛ̀ng dtua"
      },
      {
        "English": "Skirt",
        "Thai": "กระโปรง",
-       "Transcription": ""
+       "Transcription": "grà bproong"
      },
      {
        "English": "Sleeve",
        "Thai": "แขนเสื้อ",
-       "Transcription": ""
+       "Transcription": "kɛ̌ɛn sʉ̂a"
      },
      {
        "English": "Sandals",
        "Thai": "รองเท้าแตะ",
-       "Transcription": ""
+       "Transcription": "rɔɔng táao dtɛ̀"
      },
      {
        "English": "Gloves",
        "Thai": "ถุงมือ",
-       "Transcription": ""
+       "Transcription": "tǔng mʉʉ"
      }
    ]
   },
@@ -1271,67 +1276,67 @@
      {
        "English": "New",
        "Thai": "ใหม่",
-       "Transcription": ""
+       "Transcription": "mǎi"
      },
      {
        "English": "Put",
        "Thai": "ใส่",
-       "Transcription": ""
+       "Transcription": "sǎi"
      },
      {
        "English": "Yes",
        "Thai": "ใช่",
-       "Transcription": ""
+       "Transcription": "chai"
      },
      {
        "English": "Near",
        "Thai": "ใกล้",
-       "Transcription": ""
+       "Transcription": "glai"
      },
      {
        "English": "Give",
        "Thai": "ให้",
-       "Transcription": ""
+       "Transcription": "hǎi"
      },
      {
        "English": "Use",
        "Thai": "ใช้",
-       "Transcription": ""
+       "Transcription": "chai"
      },
      {
        "English": "Big",
        "Thai": "ใหญ่",
-       "Transcription": ""
+       "Transcription": "yǎi"
      },
      {
        "English": "Heart",
        "Thai": "ใจ",
-       "Transcription": ""
+       "Transcription": "jai"
      },
      {
        "English": "In",
        "Thai": "ใน",
-       "Transcription": ""
+       "Transcription": "nai"
      },
      {
        "English": "Any",
        "Thai": "ใด",
-       "Transcription": ""
+       "Transcription": "dai"
      },
      {
        "English": "Who",
        "Thai": "ใคร",
-       "Transcription": ""
+       "Transcription": "krai"
      },
      {
        "English": "Clear",
        "Thai": "ใส",
-       "Transcription": ""
+       "Transcription": "sǎi"
      },
      {
        "English": "Under",
        "Thai": "ใต้",
-       "Transcription": ""
+       "Transcription": "dtâi"
      }
    ]
   }
