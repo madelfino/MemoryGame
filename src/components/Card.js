@@ -64,7 +64,7 @@ const styles = {
     borderColor: '#f8333c',
     borderRadius: 10,
     borderWidth: 3,
-    backgroundColor: '#f8333c',
+    backgroundColor: '#06aed5',
     alignItems: 'center',
     alignSelf: 'stretch',
     justifyContent: 'center'
